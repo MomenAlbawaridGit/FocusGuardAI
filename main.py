@@ -3,9 +3,6 @@ import numpy as np
 import mediapipe as mp
 from ultralytics import YOLO
 import time
-import os
-import subprocess
-import sys
 
 class FocusTracker:
     def __init__(self, penalty_video_path):
